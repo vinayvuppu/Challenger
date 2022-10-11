@@ -1,0 +1,31 @@
+body
+{
+    background-color: #e2ccd19c;
+    margin: 10%;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    width: 350px;
+    border-radius: 8px;
+}
+#p1 {
+    border: 1px solid black;
+    padding: 14px;
+    text-align:justify;
+    background-color: #dfa5a5d7;
+}
+#p2 {
+    text-align: justify;
+    border: 1px solid black;
+    padding: 14px;
+    background-color: #dfa5a5d7;
+}
+#borderimg {
+            border: 10px solid transparent;
+            padding: 15px;
+            border-image: url(border.jpg) 30 stretch;
+}
